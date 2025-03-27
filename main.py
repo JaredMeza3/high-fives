@@ -22,3 +22,4 @@ loops.every_interval(1000, on_every_interval)
 
 
 # tie it on the back of a hand then do a high five to measure the speed and acceleration of the high five
+# Inspired by (https://makecode.microbit.org/64433-01452-30313-87237)
