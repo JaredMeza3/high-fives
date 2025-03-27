@@ -1,3 +1,10 @@
+# Make sure the microbit is a microbit V2
+# Make sure the microbit is a microbit V2
+# Make sure the microbit is a microbit V2
+# Make sure the microbit is a microbit V2
+# Make sure the microbit is a microbit V2
+
+
 IsLogging = False
 
 def on_button_pressed_a():
@@ -24,3 +31,4 @@ loops.every_interval(1000, on_every_interval)
 # tie it on the back of a hand then do a high five to measure the speed and acceleration of the high five
 # Inspired by (https://makecode.microbit.org/64433-01452-30313-87237)
 # To Access the data sheet go to file explorer and go to MY_DATA on the micro bit.
+
