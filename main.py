@@ -20,7 +20,13 @@ input.on_button_pressed(Button.B, on_button_pressed_b)
 
 def on_every_interval():
     if IsLogging:
-        basic.show_icon(IconNames.SMALL_DIAMOND)
+        basic.show_leds("""
+            . . # . .
+            . # # # .
+            # . # . #
+            . . # . .
+            . . # . .
+            """)
         basic.clear_screen()
         datalogger.log(datalogger.create_cv("AX", input.acceleration(Dimension.X)),
             datalogger.create_cv("AY", input.acceleration(Dimension.Y)),
